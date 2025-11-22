@@ -2,7 +2,7 @@
 
 ## Flux d'exécution - Affichage des produits sur l'écran d'accueil
 
-### EN résumé voici les étapes : "
+### EN résumé voici les étapes : 
 
 L'application démarre avec **Program.Main()** qui appelle **BuildWebHost()** pour créer l'hôte web. La classe **Startup** configure les services dans **ConfigureServices()** (injection de dépendances pour ProductRepository, ProductService, LanguageService, etc.) et le pipeline HTTP dans **Configure()** avec la route par défaut vers Product/Index.
 
